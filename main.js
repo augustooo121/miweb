@@ -1,11 +1,11 @@
-alert("la concha de tu hermana");
+pregunta = alert("la concha de tu hermana");
 
-console.log("puto");
+console.log(pregunta)
 
-function saludar(nombre) {
-    let nombre = alert(prompt("dime tu nombre"));
 
-    document.write("Hola " + {nombre})
+function saludar() {
+    saludo = prompt("dime tu nombre");
+    document.write("Hola " + saludo)
 }
 
 saludar()
